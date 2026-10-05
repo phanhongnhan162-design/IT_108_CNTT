@@ -1,0 +1,13 @@
+﻿Bài 6 : Thiết kế hệ thống ứng dụng theo mô hình DIKW và quản lý tệp cấu hình 
+1. Mô hình DIKW (MoMo-Lite) 
+* Data: Các bản ghi giao dịch như là ngày giờ, số tiền chuyển và nhận,.... 
+ 
+* Information: Báo cáo các chi tiêu theo tháng như ăn uống, giải trí. 
+ 
+* Knowledge: Hệ thống sẽ so sánh các chi tiêu và đưa ra các cảnh báo về mức chi tiêu quá mức trong giời gian qua.
+* Wisdom: Gợi ý kế hoạch tiết kiệm chi tiêu cá nhân dựa trên thói quen chi tiêu sao cho hợp lí và tránh bị chi tiệu quá mức
+ 
+2. Các module trong mô hình IPO 
+* Input: Luồng thanh toán (QR, chuyển khoản) và cài đặt hạn mức từ người dùng. 
+* Process: Phân loại giao dịch và phân tích thói quen chi tiêu trong tháng 
+* Output: hiển thị các mục đã chi tiêu cảnh báo và gợi ý cách chi tiêu và tiết kiệm.
